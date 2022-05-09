@@ -1,0 +1,19 @@
+{
+  "name": "rollup-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build1": "rollup -c rollup.config1.js",
+    "build2": "rollup -c rollup.config2.js",
+    "build3": "rollup -c rollup.config3.js",
+    "build4": "rollup -c rollup.config4.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.72.1"
+  }
+}
